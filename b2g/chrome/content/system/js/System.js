@@ -28,5 +28,12 @@ var System = {
   */
 window.addEventListener('load', function system_onLoad() {
   window.removeEventListener('load', system_onLoad);
+  if (navigator.mozPower) {
+    console.log('Turning on screen!');
+    var power = navigator.mozPower;
+    power.screenEnabled    = true;
+    power.keyLightEnabled  = true;
+    power.screenBrightness = 1.0;
+  }
   System.start();
 });

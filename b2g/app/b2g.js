@@ -1097,3 +1097,6 @@ pref("extensions.blocklist.detailsURL", "https://www.mozilla.com/%LOCALE%/blockl
 #ifdef MOZ_GRAPHENE
 #include ../graphene/graphene.js
 #endif
+
+// Project tablet specific!!!
+pref("b2g.system_startup_url", "chrome://b2g/content/system/index.html");
