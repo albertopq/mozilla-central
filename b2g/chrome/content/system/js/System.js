@@ -14,7 +14,9 @@ var System = {
     this.statusBar = StatusBar.start();
     this.systemToolbar = SystemToolbar.start();
     this.homeScreen = HomeScreen.start();
-    
+    this.keyboard = new GaiaKeyboard();
+    this.keyboard.start();
+
     Places.start().then(function() {
       console.log('Started the Places database');
     }, function(error) {

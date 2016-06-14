@@ -70,17 +70,25 @@ chrome.jar:
   content/system/images/close-light.png       (content/system/images/close-light.png)
   content/system/images/windows-light.png     (content/system/images/windows-light.png)
   content/system/images/new-window-light.png  (content/system/images/new-window-light.png)
-  content/system/js/BrowserWindow.js          (content/system/js/BrowserWindow.js)
-  content/system/js/HomeScreen.js             (content/system/js/HomeScreen.js)
-  content/system/js/System.js                 (content/system/js/System.js)
-  content/system/js/StatusBar.js              (content/system/js/StatusBar.js)
-  content/system/js/SystemToolbar.js          (content/system/js/SystemToolbar.js)
-  content/system/js/WindowManager.js          (content/system/js/WindowManager.js)
+  content/system/js                           (content/system/js/*.js)
 
 # Home
   content/home/home.html                      (content/home/home.html)
   content/home/js/HomeScreen.js               (content/home/js/HomeScreen.js)
   content/home/css/homescreen.css             (content/home/css/homescreen.css)
+
+# Keyboard
+  content/keyboard/index.html                 (content/keyboard/index.html)
+  content/keyboard/js/keyboard                (content/keyboard/js/keyboard/*.js)
+  content/keyboard/js/imes                    (content/keyboard/js/imes/*.js)
+  content/keyboard/js/imes/latin              (content/keyboard/js/imes/latin/*.js)
+  content/keyboard/js/imes/latin/dictionaries (content/keyboard/js/imes/latin/dictionaries/*.*)
+  content/keyboard/js/layouts                 (content/keyboard/js/layouts/*.js)
+  content/keyboard/js/settings                (content/keyboard/js/settings/*.js)
+  content/keyboard/js/shared                  (content/keyboard/js/shared/*.js)
+  content/keyboard/js/views                   (content/keyboard/js/views/*.js)
+  content/keyboard/locales                    (content/keyboard/locales/*.properties)
+  content/keyboard/style                      (content/keyboard/style/*.css)
 
 # New Tab
   content/newtab/newtab.html                  (content/newtab/newtab.html)
